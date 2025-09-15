@@ -22,7 +22,7 @@
     
     
       
-        <title>Config - ITNSA</title>
+        <title>DS1 Distribution Switch 1 - ITNSA</title>
       
     
     
@@ -110,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Config
+              DS1   Distribution Switch 1
             
           </span>
         </div>
@@ -451,7 +451,7 @@
   
   
   <span class="md-ellipsis">
-    Config
+    AS4   Access Switch 4
     
   </span>
   
@@ -474,7 +474,7 @@
   
   
   <span class="md-ellipsis">
-    Config
+    BR2   Branch Router 2
     
   </span>
   
@@ -545,7 +545,7 @@
   
   
   <span class="md-ellipsis">
-    Config
+    AS1   Access Switch 1
     
   </span>
   
@@ -615,15 +615,13 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
-        
-      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
   
   
   <span class="md-ellipsis">
-    Config
+    DS1   Distribution Switch 1
     
   </span>
   
@@ -636,7 +634,7 @@
   
   
   <span class="md-ellipsis">
-    Config
+    DS1   Distribution Switch 1
     
   </span>
   
@@ -649,8 +647,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -659,6 +655,16 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#config" class="md-nav__link">
+    <span class="md-ellipsis">
+      Config
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Config">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#execute-common-configs" class="md-nav__link">
     <span class="md-ellipsis">
       Execute [[Common Configs]].
@@ -666,8 +672,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#configure-l2-servicesvlan-trunking-protocolvtp" class="md-nav__link">
     <span class="md-ellipsis">
       Configure [[L2 Services#VLAN Trunking Protocol|VTP]].
@@ -675,8 +681,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#set-l2-servicesvlan-interfacesvlan-interfaces-and-set-ip-according-to-the-cisco-environmentip-configurationtable-configure-l2-serviceshot-standby-router-protocolhsrp" class="md-nav__link">
     <span class="md-ellipsis">
       Set [[L2 Services#VLAN Interfaces|VLAN Interfaces]] and set IP according to the [[Cisco Environment#IP Configuration|table]]. Configure [[L2 Services#Hot Standby Router Protocol|HSRP]].
@@ -684,8 +690,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#configure-l2-servicesspanning-treespanning-tree-use-4096-as-priority-this-is-the-root-bridge" class="md-nav__link">
     <span class="md-ellipsis">
       Configure [[L2 Services#Spanning-tree|spanning-tree]]. Use 4096 as priority. This is the root bridge.
@@ -693,8 +699,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#configure-l2-serviceslacp-redundancy-and-load-balancinglacp-on-g02-and-g10" class="md-nav__link">
     <span class="md-ellipsis">
       Configure [[L2 Services#LACP Redundancy and Load-Balancing|LACP]] on g0/2 and g1/0.
@@ -702,8 +708,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#configure-trunk-link-on-ports-po12-and-g03" class="md-nav__link">
     <span class="md-ellipsis">
       Configure trunk link on ports po12 and g0/3:
@@ -711,8 +717,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#configure-l3-services-ipv4-and-hsrpopen-shortest-path-first-ospfospf-ensure-ip-routing-is-enabled" class="md-nav__link">
     <span class="md-ellipsis">
       Configure [[L3 Services - IPv4 and HSRP#Open Shortest Path First (OSPF)|OSPF]]. Ensure ip routing is enabled.
@@ -720,8 +726,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#configure-dhcp" class="md-nav__link">
     <span class="md-ellipsis">
       Configure DHCP
@@ -729,8 +735,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#vlan-102-acl-need-more-experimentation" class="md-nav__link">
     <span class="md-ellipsis">
       VLAN 102 ACL. Need more experimentation.
@@ -738,13 +744,18 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#complete-config" class="md-nav__link">
     <span class="md-ellipsis">
       Complete config
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -769,7 +780,7 @@
   
   
   <span class="md-ellipsis">
-    Config
+    DS2   Distribution Switch 2
     
   </span>
   
@@ -792,7 +803,7 @@
   
   
   <span class="md-ellipsis">
-    Config
+    IR1   Internal Router 1
     
   </span>
   
@@ -861,7 +872,7 @@
   
   
   <span class="md-ellipsis">
-    Config
+    AS2   Access Switch 2
     
   </span>
   
@@ -930,7 +941,7 @@
   
   
   <span class="md-ellipsis">
-    Config
+    DS3   Distribution Switch 3
     
   </span>
   
@@ -953,7 +964,7 @@
   
   
   <span class="md-ellipsis">
-    Config
+    DS4   Distribution Switch 4
     
   </span>
   
@@ -976,7 +987,7 @@
   
   
   <span class="md-ellipsis">
-    Config
+    IR2   Internal Router 2
     
   </span>
   
@@ -1019,8 +1030,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -1029,6 +1038,16 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#config" class="md-nav__link">
+    <span class="md-ellipsis">
+      Config
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Config">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#execute-common-configs" class="md-nav__link">
     <span class="md-ellipsis">
       Execute [[Common Configs]].
@@ -1036,8 +1055,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#configure-l2-servicesvlan-trunking-protocolvtp" class="md-nav__link">
     <span class="md-ellipsis">
       Configure [[L2 Services#VLAN Trunking Protocol|VTP]].
@@ -1045,8 +1064,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#set-l2-servicesvlan-interfacesvlan-interfaces-and-set-ip-according-to-the-cisco-environmentip-configurationtable-configure-l2-serviceshot-standby-router-protocolhsrp" class="md-nav__link">
     <span class="md-ellipsis">
       Set [[L2 Services#VLAN Interfaces|VLAN Interfaces]] and set IP according to the [[Cisco Environment#IP Configuration|table]]. Configure [[L2 Services#Hot Standby Router Protocol|HSRP]].
@@ -1054,8 +1073,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#configure-l2-servicesspanning-treespanning-tree-use-4096-as-priority-this-is-the-root-bridge" class="md-nav__link">
     <span class="md-ellipsis">
       Configure [[L2 Services#Spanning-tree|spanning-tree]]. Use 4096 as priority. This is the root bridge.
@@ -1063,8 +1082,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#configure-l2-serviceslacp-redundancy-and-load-balancinglacp-on-g02-and-g10" class="md-nav__link">
     <span class="md-ellipsis">
       Configure [[L2 Services#LACP Redundancy and Load-Balancing|LACP]] on g0/2 and g1/0.
@@ -1072,8 +1091,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#configure-trunk-link-on-ports-po12-and-g03" class="md-nav__link">
     <span class="md-ellipsis">
       Configure trunk link on ports po12 and g0/3:
@@ -1081,8 +1100,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#configure-l3-services-ipv4-and-hsrpopen-shortest-path-first-ospfospf-ensure-ip-routing-is-enabled" class="md-nav__link">
     <span class="md-ellipsis">
       Configure [[L3 Services - IPv4 and HSRP#Open Shortest Path First (OSPF)|OSPF]]. Ensure ip routing is enabled.
@@ -1090,8 +1109,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#configure-dhcp" class="md-nav__link">
     <span class="md-ellipsis">
       Configure DHCP
@@ -1099,8 +1118,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#vlan-102-acl-need-more-experimentation" class="md-nav__link">
     <span class="md-ellipsis">
       VLAN 102 ACL. Need more experimentation.
@@ -1108,13 +1127,18 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#complete-config" class="md-nav__link">
     <span class="md-ellipsis">
       Complete config
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1134,7 +1158,9 @@
 
 
 
-<h1 id="config">Config</h1>
+  <h1>DS1   Distribution Switch 1</h1>
+
+<h2 id="config">Config</h2>
 <h4 id="execute-common-configs">Execute [[Common Configs]].</h4>
 <pre><code>enable
 conf t
