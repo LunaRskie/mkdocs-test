@@ -1,0 +1,22 @@
+site_name: ITNSA
+site_url: https://192.168.2.182
+theme:
+  name: material
+  font:
+    text: Courier Primer
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: blue
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
